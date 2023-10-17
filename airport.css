@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Kaushan+Script&family=Oswald:wght@700&family=Playfair+Display&family=Unna&display=swap');
+body{
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    font-family: Unna;
+    box-sizing: border-box;
+
+}
+.wholeContainer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    z-index: 4;
+    position: fixed;
+    align-items: center;
+    background-color: rgba(79, 79, 79, .6);   
+    font-size: 1.5rem;
+    color: black;
+    
+}
+.navbarhidden{
+    display: none;
+}
+.substitute{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(79, 79, 79, .7);   
+    z-index: 6;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top:  1px solid gold;
+    border-bottom: 1px solid gold; ;
+}
+ul{
+    width: 45%;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style-type: none;
+    z-index: 4;
+    position: relative;
+   
+}
+a {
+    text-decoration: none; 
+    color: gold;
+}
+.page1{
+    width: 100%;
+    height: auto;
+}
+.page1hidden{
+    display: none;
+}
+.p1video{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    object-fit: cover;
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .3);
+    z-index: 2;
+    position: absolute;
+    top: 0;
+}
+.form1Container{
+    width: 91%;
+    height: 100%;
+    position: absolute;
+    z-index: 3;
+    top: 3rem;
+    left: 4rem;
+    background-color:rgba(79, 79, 79, .8);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid gold;
+    border-radius: .5rem;
+    color: gold;
+    
+}
+form{
+    padding-left: 2rem;
+    font-size: 1rem;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+label{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+input{
+    width: 50%;
+    height: 60%;
+    border-radius: .4rem;
+    border: none;
+    margin-right: 1rem;
+    text-align: center;
+    color: gold;
+    font-size: .8rem;
+    background-color: rgba(255, 255, 255, .2);
+    border: 1px solid gold;
+}
+.formfraction{
+    width: 50%;
+    height: 8%;
+    display: flex;
+    align-items: center;
+}
+.p1ButtonHolder{
+    width: 100%;
+    height: 8% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.p1butt{
+    width: 20%;
+    height: 100%;
+    border-radius: .4rem;
+    border: 1px solid gold;
+    background-color: #000000ea;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.797);
+    color: gold;
+}
+.p1h1{
+    width: 100%;
+    height: 10%;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.page1Result{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page1ResultHidden{
+    display: none;
+}
+.page1PrimeContainer{
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    z-index: 3;
+    top: 6rem;
+    background-color:rgba(79, 79, 79, .8);
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+    border: 1px solid gold;
+    border-radius: .5rem;
+    color: gold;
+    flex-wrap: wrap;
+}
+.pricePerPerson{
+    width: 95%;
+    height: 50%;
+    background-color:rgba(255, 255, 255, .5);
+    border: 1px solid black;
+    border-radius: .4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.spanContainer{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    
+}
+span{
+    width: 50%;
+    display: flex;
+    justify-content: center ;
+    
+}
+.pacer{
+    margin-left: 2%;
+    height: 100%;
+    width: 98%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}

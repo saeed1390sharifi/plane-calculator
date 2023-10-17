@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./airport.css">
+    <title>AIRPORT MANAGER</title>
+</head>
+<body>
+    <div class="wholeContainer">
+        <div class="navbar">
+            <video  class="p1video" src="./vids/landing_-_32945 (720p).mp4" autoplay muted loop></video>
+            <div class="substitute"> <ul>
+                <li><a href="" class="planeCompare">Plane Comparison</a></li>
+                <li title="not active yet"><a href="">Route Selection</a></li>
+            </ul></div>
+        </div>
+        <div class="page1 page1hidden">
+            <video  class="p1video" src="./vids/landing_-_32945 (720p).mp4" autoplay muted loop></video>
+            <div class="overlay"></div>
+            <div class="form1Container">
+                <form  action="#">
+                    <div class="formfraction">
+                        <label for="pNAME"> PLANE MANUFACTURER / MODEL :</label>
+                        <input type="text" id="pNAME">
+                    </div>
+                    <div class="formfraction">
+                        <label for="pRANGE">RANGE (KM) :</label>
+                        <input type="text" id="pRANGE">
+                    </div>
+                    <div class="formfraction">
+                        <label for="pSPEED"> SPEED(KPH) :</label>
+                        <input type="text" id="pSPEED">
+                    </div>
+                    <div class="formfraction">
+                        <label for="pCAPACITY"> CAPACITY :</label>
+                        <input type="text" id="pCAPACITY">
+                    </div>
+                    <div class="formfraction">
+                        <label for="pCO2"> CO2 EMISSION(KG/PAX/KM) :</label>
+                        <input type="text" id="pCO2">
+                    </div>
+                    <div class="formfraction">
+                        <label for="pFUELCONSUMPTION"> FUEL CONSUMPTION(LBS/KM) :</label>
+                        <input type="text" id="pFUELCONSUMPTION">
+                    </div>
+                    <div class="formfraction">
+                        <label for="pACHECK"> A-CHECK COST ($) :</label>
+                        <input type="text" id="pACHECK">
+                    </div>
+                    <div class="formfraction">
+                        <label for="pMAINCHECK"> MAIN CHECK TIME (H) :</label>
+                        <input type="text" id="pMAINCHECK">
+                    </div>
+                    <div class="formfraction">
+                        <label for="pPILOT"> PILOTS :</label>
+                        <input type="text" id="pPILOT">
+                    </div>
+                    <div class="formfraction">
+                        <label for="pPILOTSALARY"> PILOTS SALARY :</label>
+                        <input type="text" id="pPILOTSALARY">
+                    </div>
+                    <div class="formfraction">
+                        <label for="pCREW"> CREW :</label>
+                        <input type="text" id="pCREW">
+                    </div>
+                    <div class="formfraction">
+                        <label for="pCREWSALARY"> CREW SALARY :</label>
+                        <input type="text" id="pCREWSALARY">
+                    </div>
+                    <div class="formfraction">
+                        <label for="pENGINEER">ENGINEER :</label>
+                        <input type="text" id="pENGINEER">
+                    </div>
+                    <div class="formfraction">
+                        <label for="pENGINEERSALARY">ENGINEER SALARY :</label>
+                        <input type="text" id="pENGINEERSALARY">
+                    </div>
+                    <div class="formfraction">
+                        <label for="pTECH"> TECHNICIAN :</label>
+                        <input type="text" id="pTECH">
+                    </div>
+                    <div class="formfraction">
+                        <label for="pTECHSALARY"> TECHNICIAN SALARY :</label>
+                        <input type="text" id="pTECHSALARY">
+                    </div>
+                    <div class="formfraction">
+                        <label for="pWHOLEBUDJET"> PLANE COST :</label>
+                        <input type="text" id="pWHOLEBUDJET">
+                    </div>
+                    <div class="formfraction">
+                        <label for="AVG-FUEL-COST"> AVERAGE FUEL COST :</label>
+                        <input type="text" id="AVG-FUEL-COST">
+                    </div>
+                    <div class="formfraction">
+                        <label for="AVG-CO2-EMISSION-COST"> AVERAGE CO2 EMISSION COST :</label>
+                        <input type="text" id="AVG-CO2-EMISSION-COST">
+                    </div>
+                    <div class="formfraction">
+                        <label for="DESIRED-RANGE">DESIRED RANGE :</label>
+                        <input type="text" id="DESIRED-RANGE">
+                    </div>
+                    
+                   <div class="p1ButtonHolder"> <button class="p1butt"> CALCULATE</button> </div>
+                </form>
+            </div>
+        </div>
+        <div class="page1Result page1ResultHidden">
+            <video  class="p1video" src="./vids/landing_-_32945 (720p).mp4" autoplay muted loop></video>
+            <div class="overlay"></div>
+
+            <div class="page1PrimeContainer">
+                <h1 class="p1h1">AIRPLANE PRICE ANALYSIS RESULT</h1>
+                <div class="pricePerPerson">
+                   <div class="pacer">
+                    <div class="plane spanContainer"> PLANE TYPE: <span class="planesp"> </span></div>
+                    <div class="plane spanContainer"> PLANE PRICE: <span class="pricesp"></span></div>
+                    <div class="plane spanContainer"> COST PER SEAT: <span class="priceperseatsp"></span></div>
+                    <div class="plane spanContainer"> COMPUTED COST PER PASSANGER: <span class="priceperpasssp"></span></div>
+                   
+                   </div>
+                </div>
+            </div>
+        </div>
+        <div class="page2"></div>
+    </div>
+    <script src="./airport.js"></script>
+</body>
+</html>
